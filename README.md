@@ -1,2 +1,4 @@
-# kupakupa
-Clone from github.com/anetaaneta/kupakupa and a bit of modification
+kupakupa
+========
+
+kupakupa is dce-linux implementation for wget and iperf.

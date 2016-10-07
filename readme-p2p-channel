@@ -1,0 +1,7 @@
+Replace point-to-point-channel.cc and point-to-point-channel.h from ns-3 src.
+
+To set jitter simply do :
+ pointToPoint.SetChannelAttribute ("Jitter", UintegerValue (1)); // --> default is 0 meaning doesnt have jitter.
+  pointToPoint.SetChannelAttribute ("alpha", DoubleValue (0.3));
+  pointToPoint.SetChannelAttribute ("k", DoubleValue (5));
+  pointToPoint.SetChannelAttribute ("tetha", DoubleValue (2));

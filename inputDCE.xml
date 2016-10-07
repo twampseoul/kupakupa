@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<SimulationParameters>
+    <TypeOfConnection>iperf-tcp</TypeOfConnection>
+    <congestionControl>reno</congestionControl>
+    <UDPBandwidth>100</UDPBandwidth>  
+    <SimulationTime>20</SimulationTime>
+    <ModeOperation>download</ModeOperation>
+    <ErrorRateUP>0.00</ErrorRateUP>
+    <ErrorModelUP>1</ErrorModelUP>
+    <ErrorRateDOWN>0.00</ErrorRateDOWN>
+    <ErrorModelDOWN>1</ErrorModelDOWN>
+    <DelayParamUP k="0.1" avg_delay="3" pdv="0.2" />
+    <DelayParamDOWN k="0.1" avg_delay="2" pdv="0.2" />
+    <UserBandwidthUp>1Mbps</UserBandwidthUp>
+    <UserBandwidthDown>10Gbps</UserBandwidthDown>
+    <SizeOfHttpFile>3</SizeOfHttpFile>
+    <UserTCPMem min="4096" default="87380" max="8388608" />
+    <UserWmem min="4096" default="87380" max="8388608" />
+    <UserRmem min="4096" default="87380" max="8388608" />
+    <ServerTCPMem min="4096" default="87380" max="8388608" />
+    <ServerWmem min="4096" default="87380" max="8388608" />
+    <ServerRmem min="4096" default="87380" max="8388608" />
+</SimulationParameters>

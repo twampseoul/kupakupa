@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<SimulationParameters>
+   <TypeOfConnection>iperf-tcp</TypeOfConnection>
+   <congestionControl>reno</congestionControl>
+   <UDPBandwidth>1</UDPBandwidth>
+   <Delay>2ms</Delay>
+   <ErrorRate>0.01</ErrorRate>
+   <JitterParam jitter="true" alpha="0.3" k="10" tetha="1" />
+   <UserBandwidth>200Mbps</UserBandwidth>
+   <ServerBandwidth>5Gbps</ServerBandwidth>
+   <ErrorModel>1</ErrorModel>
+   <SizeOfHttpFile>5</SizeOfHttpFile>
+   <UserMemory min="4096" default="10000" max="8388608" />
+   <ServerMemory min="4096" default="8192" max="8388608" />
+</SimulationParameters>
