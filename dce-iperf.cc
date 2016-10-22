@@ -22,7 +22,7 @@ NS_LOG_COMPONENT_DEFINE ("DceIperf");
 //   +----------------+    +----------------+
 //           |                     |
 //           +---------------------+
-//                5 Mbps, 2 ms
+//               100 Mbps, 2 ms
 //
 // 2 nodes : iperf client en iperf server ....
 //
